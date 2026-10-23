@@ -1,0 +1,48 @@
+{
+    "classes": [
+        "FreshApple",
+        "FreshBanana",
+        "FreshGrape",
+        "FreshGuava",
+        "FreshJujube",
+        "FreshOrange",
+        "FreshPomegranate",
+        "FreshStrawberry",
+        "RottenApple",
+        "RottenBanana",
+        "RottenGrape",
+        "RottenGuava",
+        "RottenJujube",
+        "RottenOrange",
+        "RottenPomegranate",
+        "RottenStrawberry"
+    ],
+    "dataset_summary": {
+        "total_samples": 3200,
+        "n_features": 1764,
+        "train_samples": 2560,
+        "test_samples": 640
+    },
+    "svm": {
+        "accuracy": 0.7140625,
+        "precision_macro": 0.7261465041441894,
+        "precision_weighted": 0.7261465041441892,
+        "recall_macro": 0.7140625,
+        "recall_weighted": 0.7140625,
+        "f1_macro": 0.7149360915558074,
+        "f1_weighted": 0.7149360915558074,
+        "training_time_sec": 28.29,
+        "inference_time_ms": 1.25
+    },
+    "random_forest": {
+        "accuracy": 0.6234375,
+        "precision_macro": 0.6255099214204377,
+        "precision_weighted": 0.6255099214204377,
+        "recall_macro": 0.6234375000000001,
+        "recall_weighted": 0.6234375,
+        "f1_macro": 0.6146984213930338,
+        "f1_weighted": 0.6146984213930338,
+        "training_time_sec": 1.57,
+        "inference_time_ms": 2.80
+    }
+}
