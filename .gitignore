@@ -1,0 +1,38 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Datasets (Tránh đẩy ảnh nặng lên git)
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Trained models (Tránh đẩy file model nhị phân nặng)
+# Trained models
+models/*
+!models/.gitkeep
+!models/svm_model.joblib
+!models/rf_model.joblib
+!models/labels.joblib
+
+# Results & outputs
+results/*
+!results/.gitkeep
+
+# IDEs & OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+.pytest_cache/

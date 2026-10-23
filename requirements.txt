@@ -1,0 +1,12 @@
+# Cấu hình các thư viện cần thiết cho bài tập lớn Phân loại trái cây (SVM & Random Forest)
+# Tương thích Python 3.11+, tối ưu cho máy tính không có GPU và RAM 8GB
+
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scikit-image>=0.21.0
+opencv-python>=4.8.0
+joblib>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+streamlit>=1.30.0
+pillow>=10.0.0
